@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="vi">
+	<head>
+		<title>Giới thiệu động vật</title>
+		<meta charset="utf-8">
+		<link href="style.css" rel="styleSheet">
+	</head>
+
+	<body>
+		<header class = "myHeader">  
+			<canvas id= "myCanvas" height="100" width="505"></canvas>
+		</header>
+		<section class="Container">
+			<nav class="Sidebar">
+				<ul>
+					<li><a href="#content1" onclick="showContent('content1')">Động vật ăn cỏ</a></li>
+					<li><a href="#content2" onclick="showContent('content2')">Động vật ăn thịt</a></li>
+					<li><a href="#content3" onclick="showContent('content3')">Động vật ăn tạp</a></li>
+					<li><a href="#content4" onclick="showContent('content4')">Động vật ký sinh</a></li>
+				</ul>
+			</nav>
+			
+			<div class="Content">
+				<iframe id="content1" src="assets/html/DVanco.html" title="Động vật ăn cỏ"></iframe>
+				<iframe id="content2" src="assets/html/DVanthit.html" title="Động vật ăn thịt"></iframe>
+				<iframe id="content3" src="assets/html/DVantap.html" title="Động vật ăn tạp"></iframe>
+				<iframe id="content4" src="assets/html/DVkysinh.html" title="Động vật ký sinh"></iframe>
+			</div>
+		</section>
+		<section class="TableCompare">
+			<p><b style="color: #388e3c">Bảng so sánh các loài động vật</b></p>
+			<table>
+				<tr>
+					<th>Nhóm động vật</th>
+					<th>Nguồn thức ăn chính</th>
+					<th>Đặc điểm tiêu hóa & hình thái</th>
+					<th>Ví dụ</th>
+					<th>Vai trò sinh thái</th>
+				</tr>
+				<tr>
+					<th>Ăn cỏ (Herbivores)</th>
+					<td>Thực vật: lá, cỏ, hạt, quả, rễ</td>
+					<td>Răng thích hợp để nghiền nát, hệ tiêu hóa dài để phân giải cellulose</td>
+					<td>Bò, ngựa, thỏ, hươu</td>
+					<td>Truyền năng lượng từ thực vật lên các bậc cao hơn</td>
+				</tr>
+				<tr>
+					<th>Ăn thịt (Carnivores)</th>
+					<td>Động vật khác: thịt, cá, côn trùng</td>
+					<td>Răng nanh sắc nhọn, móng vuốt khỏe, hệ tiêu hóa ngắn</td>
+					<td>Sư tử, hổ, cá mập, chim ưng</td>
+					<td>Kiểm soát số lượng động vật ăn cỏ, giữ cân bằng quần thể</td>
+				</tr>
+				<tr>
+					<th>Ăn tạp (Omnivores)</th>
+					<td>Cả thực vật và động vật</td>
+					<td>Răng và hệ tiêu hóa đa dạng, thích nghi nhiều loại thức ăn</td>
+					<td>Gấu, lợn, gà, con người</td>
+					<td>Linh hoạt trong chuỗi thức ăn, dễ thích nghi môi trường</td>
+				</tr>
+				<tr>
+					<th>Ký sinh (Parasites)</th>
+					<td>Máu, dịch cơ thể, mô của vật chủ</td>
+					<td>Cơ thể nhỏ, cấu trúc đơn giản, sống phụ thuộc vào vật chủ</td>
+					<td>Giun sán, ve, rận, muỗi</td>
+					<td>Ảnh hưởng sức khỏe vật chủ, tác động đến cân bằng sinh thái</td>
+				</tr>
+			</table>
+		</section>
+		
+		<footer><p>Website is designed by NgLinhTVU</p></footer>
+		<script src="script.js"></script>
+	</body>
+</html>
